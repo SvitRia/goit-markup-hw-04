@@ -325,13 +325,16 @@ margin-top: 48px;
     
 }
 .feature-list {
-  
 flex-direction: column;
 align-items: flex-start;
-
 flex-basis: calc((100%-24px*3)/4);
+}
 
-
+.feature-list-box {
+ flex-basis: calc((100%-24px*3)/4);
+ background: var(--backgraund-light);
+border-radius: 4px;
+ 
 }
 .feature-item-tittle {
  margin-bottom: 8px;
